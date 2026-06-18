@@ -1,0 +1,21 @@
+# Cookies / session secrets — never commit these
+cookies.txt
+session.txt
+*.cookies
+
+# Exported course content
+export/
+output/
+*_course/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
